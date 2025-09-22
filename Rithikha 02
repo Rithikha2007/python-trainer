@@ -1,0 +1,24 @@
+02.Write a program to execute the datas with the statement.
+Input Format
+first input corresponds to integer
+second input corresponds to float
+third input corresponds to char
+fourth input correspond to string
+fifth input correspond to String
+Constraints
+No Constraints
+Output Format
+execute the user inputs with the statemets
+
+output:
+num = int(input())
+flt = float(input())
+ch = input().strip()
+str1 = input().strip()
+str2 = input().strip()
+print(f"Integer is {num}")
+print(f"Float is {flt}")
+print(f"Character is {ch}")
+print(f"Strings are {str1} and {str2}")
+
+
