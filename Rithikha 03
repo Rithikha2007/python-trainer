@@ -1,0 +1,17 @@
+Write the program to execute conversion of other datatype.
+Input Format
+input corresponds to the integer
+Constraints
+No constraints
+Output Format
+output corresponds to the ASCII values(character)
+Sample Input 0
+68
+Sample Output 0
+D
+
+output :
+
+a = int(input())
+char = chr(a)
+print(char)
