@@ -1,0 +1,47 @@
+Veena wants to learn shape calculation for Square,Rectangle,Circle,Triangle to implements in programming.Could you please help her to how to write the program. Notes: - Square formula:4a - Rectangle formula:2(l+w) - Circle formula:2πr - Triangle formula:side+base+side
+
+Input Format
+
+First input consist of integer for side.
+Second and third input consists of integer for Length and Width.
+forth input consist of radius.
+Fifth,Sixth and Seventh input consist of Base1,side and Base2 .
+Constraints
+
+No Constraints
+
+Output Format
+
+Execute the area of shape calculation values.
+Sample Input 0
+
+9
+8
+7
+6
+5
+4
+3
+Sample Output 0
+
+Perimeter of Square:36
+Perimeter of Rectangle:30
+Perimeter of Circle:37.69
+Perimeter of Triangle:12
+
+import math
+a = int(input())
+length = int(input())
+width = int(input())
+radius = int(input())
+base1 = int(input())
+side = int(input())
+base2 = int(input())
+square=4*a
+rectangle=2*(length + width)
+circle=2*math.pi*radius
+triangle=base2+base1+side
+print("Perimeter of Square:"+str(square))
+print("Perimeter of Rectangle:"+str(rectangle))
+print(f"Perimeter of Circle:{int(circle*100)/100}")
+print(f"Perimeter of Triangle:"+str(triangle))
