@@ -1,0 +1,42 @@
+Maya wants to know how the Numbers are converted to string in the program.could you please help her to implements the program.
+
+Input Format
+
+input consists of one integer
+Constraints
+
+Given N is greater than 0 and lesser than 9
+Output Format
+
+print the number into string type.
+Sample Input 0
+
+0
+Sample Output 0
+
+Integer is 0 and String is Zero
+
+output:
+
+# Read input
+n = int(input())
+
+# Dictionary for number to string mapping
+num_to_str = {
+    0: "Zero",
+    1: "One",
+    2: "Two",
+    3: "Three",
+    4: "Four",
+    5: "Five",
+    6: "Six",
+    7: "Seven",
+    8: "Eight",
+    9: "Nine"
+}
+
+# Check constraints and print output
+if 0 <= n <= 9:
+    print(f"Integer is {n} and String is {num_to_str[n]}")
+else:
+    print("Invalid Input")
