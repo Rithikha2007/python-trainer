@@ -1,0 +1,23 @@
+Maya wants to know how to find whether the alphabet is Vowel or Consonant.could you please help her to find the alphabet is Vowel or Consonant.
+
+Input Format
+
+input consists of one Character.
+Constraints
+
+No Constraints
+
+Output Format
+
+print whether the character is Vowel or Consonant or Invalid Input.
+
+output:
+
+ch=input()
+if ch.isalpha():
+    if ch in "AEIOUaeiou":
+        print(f"The Character {ch} is Vowel")
+    else:
+        print(f"The Character {ch} is Consonant")
+else:
+    print("Invalid Input")
